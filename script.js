@@ -13,18 +13,25 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-var letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" ];
-var numbers = [];
-var special = []
+// var letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" ];
+// var numbers = [];
+// var special = []
 
-var length = "" //8-128char
-var types = ["lowercase"= true, "uppercase" = true, "numeric" = true, "special" = true]
+// var length = "" //8-128char
+// var types = ["lowercase"= true, "uppercase" = true, "numeric" = true, "special" = true]
 
 
-window.display ("Choose the following parameters for the password generator:")
+// window.display ("Choose the following parameters for the password generator:")
 
-;if () {
-  var lowercase = false;
+function getCriteria(name) {
+  const checkboxes = document.querySelectorAll('input[name="${name}"]:checked');
+  let values = [];
+  checkboxes.forEach((checkbox) => {
+    values.push(checkbox.value);
+  });
+  return values;
 }
+
+
 
 
