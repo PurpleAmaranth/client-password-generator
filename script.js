@@ -33,8 +33,8 @@ function getCriteria(name) {
   return values;
 }
 
-function getPassword() {
-  RandomSource.numbers(values)
+function getPassword(values) {
+  Math.random(values)
 }
 
 
