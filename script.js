@@ -28,11 +28,14 @@ function getCriteria(name) {
   const checkboxes = document.querySelectorAll('input[name="${name}"]:checked');
   let values = [];
   checkboxes.forEach((checkbox) => {
-    values.push(checkbox.value);
+    values.concat(checkbox.value);
   });
   return values;
 }
 
+function getPassword() {
+  RandomSource.numbers(values)
+}
 
 
 
