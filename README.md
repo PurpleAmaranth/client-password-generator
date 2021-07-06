@@ -7,6 +7,9 @@ In this project I modified starter code to create an application that enables a 
 
 The password can include lowercase, uppercase, numeric, and special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation. The Javascript uses the .fromCharCode method to calculate each symbol using Math.random.
 
+## Link
+GitHub URL: https://purpleamaranth.github.io/client-password-generator/
+
 ## User Story
 
 ```
