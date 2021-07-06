@@ -58,4 +58,4 @@ A password is then generated that matches the selected criteria and is displayed
 
 The following image shows the web application's appearance and functionality:
 
-![The Password Generator application displays a red button to "Generate Password".](./assets/javascript-demo.png)
+![The Password Generator application displays a red button to "Generate Password".](./assets/images/javascript-demo.png)
