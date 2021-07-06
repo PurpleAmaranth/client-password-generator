@@ -1,5 +1,5 @@
-# client-password-generator
 # JavaScript: Password Generator
+# client-password-generator
 
 ## Description
 
@@ -58,8 +58,4 @@ A password is then generated that matches the selected criteria and is displayed
 
 The following image shows the web application's appearance and functionality:
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
-# client-password-generator
+![The Password Generator application displays a red button to "Generate Password".](./assets/javascript-demo.png)
